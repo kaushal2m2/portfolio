@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    na,
   } from "../assets";
   
   export const navLinks = [
@@ -42,20 +43,16 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend Web Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Swift Developer",
       icon: mobile,
     },
     {
       title: "Backend Developer",
       icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
     },
   ];
   
@@ -116,150 +113,65 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Software Engineer Intern",
+      company_name: "Brain Racers (startup)",
+      icon: na,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "August 2023 - October 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Updated structure of MySQL & Redis database framework containing 10000+ data points for 25% quicker access of user data queried with PHP Laravel.",
+        "Created 3 REST API services with 10+ additional endpoints to retrieve and parse necessary info from the Redis database, provided docs for the API’s functionality to streamline frontend development by 3x, and integrated them into 4 existing React TypeScript components on the dashboard to use this real time data.",
+        "Worked with the design team to design and implement 5+ reusable new elements in ReactTS and CSS, and added them to the existing product, including a line graph showing user progress."
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "SWE Director",
+      company_name: "Davis Quant Collective",
+      icon: na,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "July 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Used Django and ReactJS to help implement the club website with 2 other directors, used prior React experience to deliver the website 1 week ahead of schedule.",
+        "Working with 2 other directors to build a stock portfolio manager and risk assessor using Alpha Vantage API, implementing risk analysis libraries from Scipy and leveraging existing ML models with Scikit Learn.",
+        "Leading a team of 6 aspiring SWE’s to develop a Python trading bot to be integrated and cross tested with the stock portfolio manager.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Data Analyst Intern",
+      company_name: "DigitalMain",
+      icon: na,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "June 2022 - August 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Wrote 10 robust Python Scripts using Selenium Webdriver and BeautifulSoup to conduct in-depth analysis of 6 cybersecurity forums, leveraging 15,000+ scraped data points to identify 100+ keywords, trends, and FAQs to optimize data handling processes by 7x.",
+        "Collaborated closely with DigitalMain's product manager to devise a comprehensive project blueprint, integrating machine learning models for efficient data organization.",
+        "Orchestrated team collaboration and version control through GitHub, facilitating centralized project management and ensuring seamless workflow.",
       ],
-    },
-  ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Virtual Tour Guide",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A virtual tour guide that harnesses AI to allow users to explore the world with an AI tour guide in their ear. Users can learn about the history of different places and landmarks wherever they are currently located.",
       tags: [
         {
-          name: "react",
+          name: "reactjs",
           color: "blue-text-gradient",
+        },
+        {
+          name: "swift",
+          color: "green-text-gradient",
         },
         {
           name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: na,
+      source_code_link: "https://github.com/kaushal2m2/virtualtourguide",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
