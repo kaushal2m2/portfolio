@@ -19,8 +19,9 @@ const Ball = (props) => {
   )
 }
 
-const BallCanvas = ({icon}) => {
+const BallCanvas = ({icon, name}) => {
   return (
+    <div>
     <Canvas
       frameloop='demand'
       dpr={[1, 2]}
@@ -33,6 +34,8 @@ const BallCanvas = ({icon}) => {
 
       <Preload all />
     </Canvas>
+    <p className='mb-4 text-white text-center text-[17p] max-w-3xl leading-[30p]'>{name}</p>
+    </div>
   )
 }
 export default BallCanvas
