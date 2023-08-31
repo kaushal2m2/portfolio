@@ -1,28 +1,24 @@
 import {
     mobile,
     backend,
-    creator,
     web,
     javascript,
     typescript,
     html,
     css,
+    cpp,
+    java,
+    python,
+    swift,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    vtg,
+    br,
+    dqc,
+    dg,
     na,
   } from "../assets";
   
@@ -74,12 +70,24 @@ import {
       icon: typescript,
     },
     {
-      name: "React JS",
-      icon: reactjs,
+      name: "C++",
+      icon: cpp,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Swift",
+      icon: swift,
+    },
+    {
+      name: "ReactJS",
+      icon: reactjs,
     },
     {
       name: "Tailwind CSS",
@@ -94,20 +102,8 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
@@ -115,9 +111,9 @@ import {
     {
       title: "Software Engineer Intern",
       company_name: "Brain Racers (startup)",
-      icon: na,
+      icon: br,
       iconBg: "#383E56",
-      date: "August 2023 - October 2023",
+      date: "August 2023 - Present",
       points: [
         "Updated structure of MySQL & Redis database framework containing 10000+ data points for 25% quicker access of user data queried with PHP Laravel.",
         "Created 3 REST API services with 10+ additional endpoints to retrieve and parse necessary info from the Redis database, provided docs for the API’s functionality to streamline frontend development by 3x, and integrated them into 4 existing React TypeScript components on the dashboard to use this real time data.",
@@ -127,7 +123,7 @@ import {
     {
       title: "SWE Director",
       company_name: "Davis Quant Collective",
-      icon: na,
+      icon: dqc,
       iconBg: "#E6DEDD",
       date: "July 2023 - Present",
       points: [
@@ -138,8 +134,8 @@ import {
     },
     {
       title: "Data Analyst Intern",
-      company_name: "DigitalMain",
-      icon: na,
+      company_name: "DigitalMain (startup)",
+      icon: dg,
       iconBg: "#E6DEDD",
       date: "June 2022 - August 2022",
       points: [
@@ -169,7 +165,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: na,
+      image: vtg,
       source_code_link: "https://github.com/kaushal2m2/virtualtourguide",
     },
   ];
