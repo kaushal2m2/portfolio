@@ -1,7 +1,8 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import img1 from "./img1.png";
+import img2 from "./img2.png";
+import img3 from "./img3.png";
+import img4 from "./img4.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -19,6 +20,10 @@ import cpp from "./tech/c++.png";
 import java from "./tech/java.png";
 import python from "./tech/python.png";
 import swift from "./tech/swift.png";
+import pytorch from "./tech/pytorch.png";
+import tensorflow from "./tech/tensorflow.png";
+import aws from "./tech/aws.png";
+import keras from "./tech/keras.png";
 
 import vtg from "./vtourg.png";
 
@@ -30,9 +35,10 @@ import na from "./na.png";
 
 export {
   logo,
-  backend,
-  mobile,
-  web,
+  img1,
+  img2,
+  img3,
+  img4,
   github,
   menu,
   close,
@@ -44,6 +50,10 @@ export {
   git,
   html,
   javascript,
+  pytorch,
+  tensorflow,
+  aws,
+  keras,
   mongodb,
   nodejs,
   reactjs,

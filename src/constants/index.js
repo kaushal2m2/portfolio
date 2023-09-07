@@ -1,11 +1,10 @@
 import {
-    mobile,
-    backend,
-    web,
+    img1,
+    img2,
+    img3,
+    img4,
     javascript,
     typescript,
-    html,
-    css,
     cpp,
     java,
     python,
@@ -20,6 +19,10 @@ import {
     dqc,
     dg,
     na,
+    pytorch,
+    tensorflow,
+    aws,
+    keras,
   } from "../assets";
   
   export const navLinks = [
@@ -39,36 +42,24 @@ import {
   
   const services = [
     {
-      title: "Frontend Web Developer",
-      icon: web,
+      title: "Machine Learning Enthusiast",
+      icon: img1,
     },
     {
-      title: "Swift Developer",
-      icon: mobile,
+      title: "Cloud Engineer",
+      icon: img2,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "Algorithm Engineer",
+      icon: img3,
+    },
+    {
+      title: "Full Stack Developer",
+      icon: img4,
     },
   ];
   
   const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
     {
       name: "C++",
       icon: cpp,
@@ -82,8 +73,44 @@ import {
       icon: python,
     },
     {
+      name: "PyTorch",
+      icon: pytorch,
+    },
+    {
+      name: "TensorFlow",
+      icon: tensorflow,
+    },
+    {
+      name: "Keras",
+      icon: keras,
+    },
+    {
+      name: "AWS",
+      icon: aws,
+    },
+    {
       name: "Swift",
       icon: swift,
+    },
+    {
+      name: "git",
+      icon: git,
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb,
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "TypeScript",
+      icon: typescript,
+    },
+    {
+      name: "Node JS",
+      icon: nodejs,
     },
     {
       name: "ReactJS",
@@ -92,18 +119,6 @@ import {
     {
       name: "Tailwind CSS",
       icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "git",
-      icon: git,
     },
   ];
   
@@ -127,10 +142,10 @@ import {
       iconBg: "#E6DEDD",
       date: "July 2023 - Present",
       points: [
-        "Used Django and ReactJS to help implement the club website with 2 other directors, used prior React experience to deliver the website 1 week ahead of schedule.",
-        "Working with 2 other directors to build a stock portfolio manager and risk assessor using Alpha Vantage API, implementing risk analysis libraries from Scipy and leveraging existing ML models with Scikit Learn.",
-        "Leading a team of 6 aspiring SWE’s to develop a Python trading bot to be integrated and cross tested with the stock portfolio manager.",
-      ],
+        "Analyzed and incorporated findings from 5+ research papers into a stock portfolio manager and risk assessor project, streamlining project progress by 25%.",
+        "Leading a team of 6 aspiring SWE’s in developing a Python trading bot, integrating and cross-testing with the stock portfolio manager.",
+        "Used TailwindCSS and ReactJS to help implement the club website with 2 other directors, delivering the website 1 week ahead of schedule."   
+      ],     
     },
     {
       title: "Data Analyst Intern",
@@ -153,15 +168,15 @@ import {
         "A virtual tour guide that harnesses AI to allow users to explore the world with an AI tour guide in their ear. Users can learn about the history of different places and landmarks wherever they are currently located.",
       tags: [
         {
-          name: "reactjs",
+          name: "swift",
           color: "blue-text-gradient",
         },
         {
-          name: "swift",
+          name: "openai",
           color: "green-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "MERNstack",
           color: "pink-text-gradient",
         },
       ],

@@ -5,8 +5,8 @@ const Bottom = () => {
         <div className="pb-8 px-8 w-screen absolute items-center">
             <hr style={{
                 "width":"96%",
-                "margin-left":"2%",
-                "margin-top": "2%"
+                "marginLeft":"2%",
+                "marginTop": "2%"
             }}/>
             <div className='flex flex-row justify-evenly w-[100%] '>
                 <div className='text-left w-[30%] pt-4 font-poppins text-secondary flex flex-col space-y-1'>
