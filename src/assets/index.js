@@ -7,15 +7,11 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
 import cpp from "./tech/c++.png";
 import java from "./tech/java.png";
 import python from "./tech/python.png";
@@ -42,13 +38,11 @@ export {
   github,
   menu,
   close,
-  css,
   cpp,
   java,
   python,
   swift,
   git,
-  html,
   javascript,
   pytorch,
   tensorflow,
@@ -57,8 +51,6 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  tailwind,
-  typescript,
   vtg,
   br,
   dg,

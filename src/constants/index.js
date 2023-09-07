@@ -4,13 +4,11 @@ import {
     img3,
     img4,
     javascript,
-    typescript,
     cpp,
     java,
     python,
     swift,
     reactjs,
-    tailwind,
     nodejs,
     mongodb,
     git,
@@ -105,20 +103,12 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "Node JS",
       icon: nodejs,
     },
     {
       name: "ReactJS",
       icon: reactjs,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
     },
   ];
   
