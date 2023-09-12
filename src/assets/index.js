@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import logo_black from "./logo-black.svg";
 import img1 from "./img1.png";
 import img2 from "./img2.png";
 import img3 from "./img3.png";
@@ -6,6 +7,8 @@ import img4 from "./img4.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+
+import me from "./m4.png";
 
 import git from "./tech/git.png";
 import javascript from "./tech/javascript.png";
@@ -55,5 +58,7 @@ export {
   br,
   dg,
   dqc,
-  na
+  na,
+  logo_black,
+  me,
 };

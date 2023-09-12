@@ -10,7 +10,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false)
   return (
     <nav 
-      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary absolute`}>
+      className={`${styles.paddingX} w-[90vw] flex items-center py-5 fixed top-0 z-20 bg-transparent absolute`}>
       <div className='flex items-center justify-between w-full max-w-7xl mx-auto'>
         <Link 
           to='/'
@@ -51,6 +51,11 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
+        {/* <div className='bg-sky-500'> 
+          <img src = {logo} alt = "logo" className="w-9 h-9 object-contain"
+            onClick={setSelected(true)}
+            /> 
+        </div> */}
       </div>
     </nav>
   )
