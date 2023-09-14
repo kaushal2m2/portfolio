@@ -13,6 +13,7 @@ import {
     mongodb,
     git,
     vtg,
+    tc,
     br,
     dqc,
     dg,
@@ -172,6 +173,48 @@ import {
       ],
       image: vtg,
       source_code_link: "https://github.com/kaushal2m2/virtualtourguide",
+    },
+    {
+      name: "Tomato Classifier",
+      description:
+        "Built a Sequential Tensorflow Keras model to classify images of tomato plants into 10 classes, 9 types of diseases or healthy. The model was trained on 16000+ images and achieved 70% accuracy, and the model continues to be changed. I deployed the model using Flask.",
+      tags: [
+        {
+          name: "tensorflow",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "keras",
+          color: "green-text-gradient",
+        },
+        {
+          name: "flask",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tc,
+      source_code_link: "https://github.com/kaushal2m2/tomatoclassify",
+    },
+    {
+      name: "Neural Networks",
+      description:
+        "Implemented a neural network from scratch in python using just numpy. I took a deep dive into the math and theory behind neural networks, building a basic feedforward network and a convolutional neural network, incorporating different initializations and activations and losses from research papers. See the readme for more.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "neuralnetworks",
+          color: "green-text-gradient",
+        },
+        {
+          name: "numpy",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: na,
+      source_code_link: "https://github.com/kaushal2m2/neuralnetwork",
     },
   ];
   

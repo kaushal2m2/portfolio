@@ -8,7 +8,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import me from "./m4.png";
+import me from "./me.png";
 
 import git from "./tech/git.png";
 import javascript from "./tech/javascript.png";
@@ -25,6 +25,7 @@ import aws from "./tech/aws.png";
 import keras from "./tech/keras.png";
 
 import vtg from "./vtourg.png";
+import tc from "./tomatoclassify.png";
 
 import br from "./company/br-logo.png";
 import dg from "./company/dgmain-logo.png";
@@ -55,6 +56,7 @@ export {
   nodejs,
   reactjs,
   vtg,
+  tc,
   br,
   dg,
   dqc,

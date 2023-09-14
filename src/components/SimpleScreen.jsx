@@ -1,5 +1,6 @@
 import React from 'react';
 import {me} from '../assets'
+import { projects } from '../constants';
 
 
 const SimpleScreen = () => {
@@ -36,7 +37,7 @@ const SimpleScreen = () => {
                         <br />
                         <div className='flex flex-col text-[#636E72] text-xl text-justify'>
                             <h2 className='indent-4 font-bold text-[#161615]'>{'>> Brain Racers, Software Engineer Intern, July 2023 - September 2023'}</h2>
-                            <h2 className='mx-8 font-light'>{'$ I queried a database in MySQL and built and deployed APIs with PHP, then integrated the endpoints with existing TypeScript React to create dynamic components.'}</h2>
+                            <h2 className='mx-8 font-light'>{'$ I improved the design of an existing MySQL database and built and deployed APIs querying it with PHP, then integrated the endpoints with existing TypeScript React to create dynamic components.'}</h2>
                             <h2 className='indent-4 font-bold mt-2 text-[#161615]'>{'>> DigitalMain, Data Analyst Intern, June 2022 - August 2022'}</h2>
                             <h2 className='mx-8'>{'$ I worked alongside the Product Manager with guidance from the CEO to create scripts to scrape cybersecurity forums. I then used an ML model to organize the data and perform analysis on it, in order to help streamline DigitalMain\'s data handling process.'}</h2>
                         </div>
@@ -47,7 +48,7 @@ const SimpleScreen = () => {
                         <br />
                         <div className='flex flex-col text-[#636e72] text-xl text-justify'>
                             <h2 className='indent-4 font-bold text-[#161615]'>{'>> Davis Quant Collective, SWE Director, August 2023 - Present'}</h2>
-                            <h2 className='mx-8'>{'$ Lorem'}</h2>
+                            <h2 className='mx-8'>{"$ I'm utilizing research from 5+ research articles to create a stock portfolio manager and risk assessor, and leading a team of 6 in developing a trading bot in python, with a goal of cross testing it with the risk assessor, integrating both projects."}</h2>
                         </div>
                     </section>
 
@@ -55,12 +56,18 @@ const SimpleScreen = () => {
                         <p className='text-3xl font-semibold'>% Projects</p>
                         <br />
                         <div className='flex flex-col text-[#636e72] text-xl text-justify'>
-                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> Virtual Tour Guide'}</h2>
-                            <div className='flex flex-row'>
-                            <h2 className='ml-8'>{'$ A virtual tour guide that harnesses AI to allow users to explore the world with an AI tour guide in their ear. '}</h2>
-                            &nbsp;&nbsp;•&nbsp;&nbsp;
-                            <a className='text-[#0000EE]' href='https://github.com/kaushal2m2/virtualtourguide'>github</a>
-                            </div>
+                            {projects.map((project) => {
+                                return (
+                                <>
+                                    <h2 className='indent-4 font-bold text-[#161615]'>{`>> ${project.name}`}</h2>
+                                    <div className='flex flex-row mb-2'>
+                                        <h2 className='ml-8'>{`$ ${project.description}`}</h2>
+                                        &nbsp;&nbsp;•&nbsp;&nbsp;
+                                        <a className='text-[#0000EE]' href={`${project.source_code_link}`}>github</a>
+                                    </div>
+                                </>
+                                )
+                            })}
                         </div>
                     </section>
                     
