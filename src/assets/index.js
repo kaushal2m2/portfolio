@@ -23,9 +23,11 @@ import pytorch from "./tech/pytorch.png";
 import tensorflow from "./tech/tensorflow.png";
 import aws from "./tech/aws.png";
 import keras from "./tech/keras.png";
+import flask from "./tech/flask.svg";
 
 import vtg from "./vtourg.png";
 import tc from "./tomatoclassify.png";
+import nn from "./neuralnetwork.png";
 
 import br from "./company/br-logo.png";
 import dg from "./company/dgmain-logo.png";
@@ -55,8 +57,10 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  flask,
   vtg,
   tc,
+  nn,
   br,
   dg,
   dqc,

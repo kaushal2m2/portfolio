@@ -20,7 +20,7 @@ const App = () => {
             </motion.div>
           </div>
           <p className="quick text-md mt-[5px]">
-            Click me!
+            Detailed View
           </p>
         </div>
         <div className="mt-[10vh]"><SimpleScreen /></div>
@@ -42,9 +42,6 @@ const App = () => {
                   <img src = {logo_black} className="rounded-full"/>
                 </motion.div>
               </div>
-              {/* <p className="mt-[5px]">
-                Quick View
-              </p> */}
             </div>
           </div>
           

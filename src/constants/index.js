@@ -14,6 +14,7 @@ import {
     git,
     vtg,
     tc,
+    nn,
     br,
     dqc,
     dg,
@@ -22,6 +23,8 @@ import {
     tensorflow,
     aws,
     keras,
+    flask,
+    logo
   } from "../assets";
   
   export const navLinks = [
@@ -96,6 +99,10 @@ import {
       icon: git,
     },
     {
+      name: "Flask",
+      icon: flask,
+    },
+    {
       name: "MongoDB",
       icon: mongodb,
     },
@@ -119,7 +126,7 @@ import {
       company_name: "Brain Racers (startup)",
       icon: br,
       iconBg: "#383E56",
-      date: "August 2023 - Present",
+      date: "July 2023 - September 2023",
       points: [
         "Updated structure of MySQL & Redis database framework containing 10000+ data points for 25% quicker access of user data queried with PHP Laravel.",
         "Created 3 REST API services with 10+ additional endpoints to retrieve and parse necessary info from the Redis database, provided docs for the API’s functionality to streamline frontend development by 3x, and integrated them into 4 existing React TypeScript components on the dashboard to use this real time data.",
@@ -131,7 +138,7 @@ import {
       company_name: "Davis Quant Collective",
       icon: dqc,
       iconBg: "#E6DEDD",
-      date: "July 2023 - Present",
+      date: "August 2023 - Present",
       points: [
         "Analyzed and incorporated findings from 5+ research papers into a stock portfolio manager and risk assessor project, streamlining project progress by 25%.",
         "Leading a team of 6 aspiring SWE’s in developing a Python trading bot, integrating and cross-testing with the stock portfolio manager.",
@@ -213,8 +220,29 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: na,
+      image: nn,
       source_code_link: "https://github.com/kaushal2m2/neuralnetwork",
+    },
+    {
+      name: "Portfolio",
+      description:
+        "Built this website for myself as a portfolio, hosted on AWS using S3, Route53, and Cloudfront for caching. Built using React and ThreeJS with TailwindCSS.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "aws",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: logo,
+      source_code_link: "https://github.com/kaushal2m2/portfolio",
     },
   ];
   
