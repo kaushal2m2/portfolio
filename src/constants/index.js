@@ -184,7 +184,7 @@ import {
     {
       name: "Tomato Classifier",
       description:
-        "Built a Sequential Tensorflow Keras model to classify images of tomato plants into 10 classes, 9 types of diseases or healthy. The model was trained on 16000+ images and achieved 70% accuracy, and the model continues to be changed. I deployed the model using Flask.",
+        "Built a Sequential Tensorflow Keras model to classify images of tomato plants into 10 classes, 9 types of diseases or healthy. The model was trained on 16000+ images and currently achieves 82% accuracy, and the model continues to be changed. I deployed the model using Flask.",
       tags: [
         {
           name: "tensorflow",
