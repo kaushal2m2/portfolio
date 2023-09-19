@@ -41,7 +41,7 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
           I am a student at the University of California, Davis, pursuing a degree in Computer Science and Engineering. 
           I am passionate about <span className='font-bold text-[#911eff]'>learning new technologies</span> and <span className='font-bold text-[#911eff]'>understanding complex algorithms,</span>
-           and am currently spending my time immersed in <span className='font-bold text-[#911eff]'>machine learning</span> and <span className='font-bold text-[#911eff]'>cloud engineering.</span>
+          &nbsp;and am currently spending my time immersed in <span className='font-bold text-[#911eff]'>machine learning</span> and <span className='font-bold text-[#911eff]'>cloud engineering.</span>
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

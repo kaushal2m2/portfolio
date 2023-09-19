@@ -184,7 +184,7 @@ import {
     {
       name: "Tomato Classifier",
       description:
-        "Built a Sequential Tensorflow Keras model to classify images of tomato plants into 10 classes, 9 types of diseases or healthy. The model was trained on 16000+ images and currently achieves 82% accuracy, and the model continues to be changed. I deployed the model using Flask.",
+        "Built a Sequential Tensorflow Keras model to classify images of tomato plants into 10 classes, 9 types of diseases or healthy. The model was trained on 16000+ images and currently achieves 93% accuracy, and the model continues to be changed. I deployed the model using Flask.",
       tags: [
         {
           name: "tensorflow",
@@ -226,7 +226,7 @@ import {
     {
       name: "Portfolio",
       description:
-        "Built this website for myself as a portfolio, hosted on AWS using S3, Route53, and Cloudfront for caching. Built using React and ThreeJS with TailwindCSS.",
+        "Built this website for myself as a portfolio, hosted on AWS using S3, Route53, and Cloudfront for caching, and a ci/cd pipeline with CodePipeline. Built using React and ThreeJS with TailwindCSS.",
       tags: [
         {
           name: "react",

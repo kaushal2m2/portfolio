@@ -33,6 +33,15 @@ const SimpleScreen = () => {
             <div className='h-full w-[75vw]'>
                 <section className='flex flex-col gap-20'>
                     <section>
+                        <p className='text-3xl font-semibold'>% About</p>
+                        <br />
+                        <h2 className='indent-4 font-bold text-[#161615] text-xl text-justify'>
+                            {'>>'}&nbsp;I am a student at the University of California, Davis, pursuing a degree in Computer Science and Engineering. 
+                        I am passionate about <span className='font-bold text-[#079a1a]'>learning new technologies</span> and <span className='font-bold text-[#079a1a]'>understanding complex algorithms,</span>
+                        &nbsp;and am currently spending my time immersed in <span className='font-bold text-[#079a1a]'>machine learning</span> and <span className='font-bold text-[#079a1a]'>cloud engineering.</span>
+                        </h2>
+                    </section>
+                    <section>
                         <p className='text-3xl font-semibold'>% Internships</p>
                         <br />
                         <div className='flex flex-col text-[#636E72] text-xl text-justify'>
