@@ -8,7 +8,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import me from "./me.png";
+import me from "./me3.jpg";
 
 import git from "./tech/git.png";
 import javascript from "./tech/javascript.png";
