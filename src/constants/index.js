@@ -18,6 +18,7 @@ import {
     br,
     dqc,
     dg,
+    cl,
     na,
     pytorch,
     tensorflow,
@@ -122,6 +123,18 @@ import {
   
   const experiences = [
     {
+      title: "Sofware Developer",
+      company_name: "CodeLab",
+      icon: cl,
+      iconBg: "#E6DEDD",
+      date: "Oct 2023 - Present",
+      points: [
+        "Worked on the Client team, consulting for the company BillionMinds, and built two dashboards using Next.ts and TailwindCSS for BillionMinds and its clients to manage and view their company’s data.",
+        "Aggregated data from 4 APIs into a MongoDB database with AWS Lambda Serverless functions and queried Mongo from the frontend to populate the dashboard and charts.",
+        "Developed 3 low fidelity iterations in Next.ts from the ground up, and worked continuously with designers and BillionMinds to combine and advance it to a single, functioning, high fidelity product.",
+      ],
+    },
+    {
       title: "Software Engineer Intern",
       company_name: "Brain Racers (startup)",
       icon: br,
@@ -154,7 +167,6 @@ import {
       points: [
         "Wrote 10 robust Python Scripts using Selenium Webdriver and BeautifulSoup to conduct in-depth analysis of 6 cybersecurity forums, leveraging 15,000+ scraped data points to identify 100+ keywords, trends, and FAQs to optimize data handling processes by 7x.",
         "Collaborated closely with DigitalMain's product manager to devise a comprehensive project blueprint, integrating machine learning models for efficient data organization.",
-        "Orchestrated team collaboration and version control through GitHub, facilitating centralized project management and ensuring seamless workflow.",
       ],
     },
   ];

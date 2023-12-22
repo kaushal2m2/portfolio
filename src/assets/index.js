@@ -32,8 +32,11 @@ import nn from "./neuralnetwork.png";
 import br from "./company/br-logo.png";
 import dg from "./company/dgmain-logo.png";
 import dqc from "./company/dqc-logo.png";
+import cl from "./company/codelab.jpg"
 
 import na from "./na.png";
+
+import resume from "./resume.pdf"
 
 export {
   logo,
@@ -64,7 +67,9 @@ export {
   br,
   dg,
   dqc,
+  cl,
   na,
   logo_black,
   me,
+  resume,
 };
