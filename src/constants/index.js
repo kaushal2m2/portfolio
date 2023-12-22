@@ -124,7 +124,7 @@ import {
   const experiences = [
     {
       title: "Sofware Developer",
-      company_name: "CodeLab",
+      company_name: "UC Davis CodeLab",
       icon: cl,
       iconBg: "#E6DEDD",
       date: "Oct 2023 - Present",
