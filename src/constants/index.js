@@ -19,6 +19,8 @@ import {
     dqc,
     dg,
     cl,
+    cmb,
+    del,
     na,
     pytorch,
     tensorflow,
@@ -123,6 +125,25 @@ import {
   
   const experiences = [
     {
+      title: "Incoming Solutions Engineer Summer Scholar",
+      company_name: "Deloitte",
+      icon: del,
+      iconBg: "#383E56",
+      date: "June 2024 - August 2024",
+      points:[]
+    },
+    {
+      title: "Undergraduate Machine Learning Researcher",
+      company_name: "UC Davis Center for Mind and Brain",
+      icon: cmb,
+      iconBg: "#383E56",
+      date: "May 2024 - Present",
+      points: [
+        "Performing research under Dr. Petr Janata on the relationship between music on the brain, utilizing fMRI brain data from the UC Davis Mind and Brain Center to explore optimizing the design of neural networks to more closely resemble 'the brain', with 150+ real subjects brain data reactions to music over years.",
+        "Implementing a transformer architecture centered around attention and variational auto encoders with PyTorch to create a generative music model, leveraging 1500-2000 songs with lyrics to train the model."
+      ]
+    },
+    {
       title: "Sofware Developer",
       company_name: "UC Davis CodeLab",
       icon: cl,
@@ -151,10 +172,10 @@ import {
       company_name: "Davis Quant Collective",
       icon: dqc,
       iconBg: "#E6DEDD",
-      date: "August 2023 - Present",
+      date: "August 2023 - Dec 2023",
       points: [
-        "Analyzed and incorporated findings from 5+ research papers into a stock portfolio manager and risk assessor project, streamlining project progress by 25%.",
-        "Leading a team of 6 aspiring SWE’s in developing a Python trading bot, integrating and cross-testing with the stock portfolio manager.",
+        "Analyzed and incorporated findings from 5+ research papers into our ML Model Architecture for a stock portfolio manager and risk assessor project, streamlining project progress by 25%.",
+        "Assembled the model in Python using an architecture of multiple HuggingFace models for initial processing and GPU-trained comprehensive PyTorch neural networks, and serving it using Django for easy queries from the frontend Next.js website with the user’s positions and analytics.",
         "Used TailwindCSS and ReactJS to help implement the club website with 2 other directors, delivering the website 1 week ahead of schedule."   
       ],     
     },

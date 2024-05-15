@@ -8,7 +8,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import me from "./me3.jpg";
+import me from "./me.jpg";
 
 import git from "./tech/git.png";
 import javascript from "./tech/javascript.png";
@@ -33,6 +33,8 @@ import br from "./company/br-logo.png";
 import dg from "./company/dgmain-logo.png";
 import dqc from "./company/dqc-logo.png";
 import cl from "./company/codelab.jpg"
+import cmb from "./company/centermindandbrain.png"
+import del from "./company/deloitte.png"
 
 import na from "./na.png";
 
@@ -68,6 +70,8 @@ export {
   dg,
   dqc,
   cl,
+  cmb,
+  del,
   na,
   logo_black,
   me,

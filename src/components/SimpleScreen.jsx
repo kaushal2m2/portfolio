@@ -49,6 +49,8 @@ const SimpleScreen = () => {
                         <p className='text-3xl font-semibold'>% Internships</p>
                         <br />
                         <div className='flex flex-col text-[#636E72] text-xl text-justify'>
+                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> Deloitte, Incoming Solutions Engineer Intern, June 2024 - August 2024'}</h2>
+                            <h2 className='mx-8 font-light'></h2>
                             <h2 className='indent-4 font-bold text-[#161615]'>{'>> Brain Racers, Software Engineer Intern, July 2023 - September 2023'}</h2>
                             <h2 className='mx-8 font-light'>{'$ I improved the design of an existing MySQL database and built and deployed 10+ API endpoints querying it with PHP, then integrated the endpoints with 9+ existing and new TypeScript React to create dynamic components.'}</h2>
                             <h2 className='indent-4 font-bold mt-2 text-[#161615]'>{'>> DigitalMain, Data Analyst Intern, June 2022 - August 2022'}</h2>
@@ -60,13 +62,19 @@ const SimpleScreen = () => {
                         <p className='text-3xl font-semibold'>% Other Work</p>
                         <br />
                         <div className='flex flex-col text-[#636e72] text-xl text-justify'>
-                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> UC Davis CodeLab, Software Developer, October 2023 - Present'}</h2>
-                            <h2 className='mx-8'>{"$ I worked with our consulting club for the startup BillionMinds, building them 2 dashboards in Next.ts and TailwindCSS with an intricate backend system with MongoDB Atlas and AWS Lambda, aggregating data from 4 different APIs into one central MongoDB Collection."}</h2>
+                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> UC Davis Center for Mind and Brain, Undergraduate Machine Learning Researcher, May 2024 - Present'}</h2>
+                            <h2 className='mx-8'>{"$ I'm working directly under Dr. Petr Janata, researching generative music models, and I'm currently working on implementing attention in music generation and (separately) utilizing fMRI brain data from the UC Davis Center for Mind and Brain to explore optimizing the design of neural networks to more closely resemble 'the brain'"}</h2>
                         </div>
                         <br />
                         <div className='flex flex-col text-[#636e72] text-xl text-justify'>
-                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> Davis Quant Collective, SWE Director, August 2023 - Present'}</h2>
-                            <h2 className='mx-8'>{"$ I'm utilizing research from 5+ research articles to create a stock portfolio manager and risk assessor, and leading a team of 6 in developing a trading bot in python, with a goal of cross testing it with the risk assessor, integrating both projects."}</h2>
+                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> UC Davis CodeLab, Software Developer, October 2023 - Present'}</h2>
+                            <h2 className='mx-8'>{"$ I worked with our consulting club for the startup BillionMinds, building them 2 dashboards in Next.ts and TailwindCSS with an intricate backend system with MongoDB Atlas and AWS Lambda, aggregating data from 4 different APIs into one central MongoDB Collection."}</h2>
+                            <h2 className='mx-8'>{"$ I was the Project Manager for a team building a video summarizing chatbot tool for an on-campus client, in Next, Express, and MongoDB using Google Gemini for summary generation and used AWS Elastic Beanstalk to host the EC2 instance with the Flask server for Gemini queries."}</h2>
+                        </div>
+                        <br />
+                        <div className='flex flex-col text-[#636e72] text-xl text-justify'>
+                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> Davis Quant Collective, SWE Director, August 2023 - Dec 2023'}</h2>
+                            <h2 className='mx-8'>{"$ I utilized research from 5+ research articles to create a stock portfolio manager and risk assessor, and led a team of 6 in developing a trading bot in python, cross testing it with the risk assessor to integrate both projects."}</h2>
                         </div>
                     </section>
 
