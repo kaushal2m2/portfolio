@@ -154,7 +154,7 @@ import {
         "Aggregated data from 4 APIs into a MongoDB database with AWS Lambda Serverless functions and queried Mongo from the frontend to populate the dashboard and charts.",
         "Developed 3 low fidelity iterations in Next.ts from the ground up, and worked continuously with designers and BillionMinds to combine and advance it to a single, functioning, high fidelity product.",
       ],
-    },
+    }, 
     {
       title: "Software Engineer Intern",
       company_name: "Brain Racers (startup)",
