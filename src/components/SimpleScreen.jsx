@@ -74,7 +74,7 @@ const SimpleScreen = () => {
                         <br />
                         <div className='flex flex-col text-[#636e72] text-xl text-justify'>
                             <h2 className='indent-4 font-bold text-[#161615]'>{'>> Davis Quant Collective, SWE Director, August 2023 - Dec 2023'}</h2>
-                            <h2 className='mx-8'>{"$ I utilized research from 5+ research articles to create a stock portfolio manager and risk assessor, and led a team of 6 in developing a trading bot in python, cross testing it with the risk assessor to integrate both projects."}</h2>
+                            <h2 className='mx-8'>{"$ I utilized research from 5+ research articles to create a stock portfolio manager and risk assessor, and led a team of 6 to develop a trading bot in python, cross testing it with the risk assessor to integrate both projects."}</h2>
                         </div>
                     </section>
 
