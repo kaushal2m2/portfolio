@@ -11,7 +11,7 @@ const SimpleScreen = () => {
                 <div className='w-[50%] flex flex-col justify-center'>
                     <div className='text-center flex flex-col items-center'>
                         <div className='font-black text-5xl'>Kaushal Marimuthu</div>
-                        <div className='text-xl'>Computer Science and Engineering @ UC Davis</div>
+                        <div className='text-xl'>Computer Science and Engineering & Statistics, ML Track Double Major @ UC Davis</div>
                         <div className='mt-2 flex flex-row gap-4'>
                             <a href={resume} target='_blank' className='cursor-pointer opacity-100 hover:opacity-50'>
                                 <svg className='opacity-100' xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z"/><path d="M14 3v5h5M16 13H8M16 17H8M10 9H8"/></svg>
@@ -40,7 +40,7 @@ const SimpleScreen = () => {
                         <p className='text-3xl font-semibold'>% About</p>
                         <br />
                         <h2 className='indent-4 font-bold text-[#161615] text-xl text-justify'>
-                            {'>>'}&nbsp;I am a student at the University of California, Davis, pursuing a degree in Computer Science and Engineering. 
+                            {'>>'}&nbsp;I am a student at the University of California, Davis, pursuing degrees in <span className='font-bold text-[#079a1a]'>Computer Science and Engineering</span> and in <span className='font-bold text-[#079a1a]'>Statistics, ML Track</span>. 
                         I am passionate about <span className='font-bold text-[#079a1a]'>learning new technologies</span> and <span className='font-bold text-[#079a1a]'>understanding complex algorithms,</span>
                         &nbsp;and am currently spending my time immersed in <span className='font-bold text-[#079a1a]'>machine learning</span> and <span className='font-bold text-[#079a1a]'>cloud engineering.</span>
                         </h2>

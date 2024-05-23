@@ -39,7 +39,7 @@ const About = () => {
       <motion.p
         variants={fadeIn("","",0.1,1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-          I am a student at the University of California, Davis, pursuing a degree in Computer Science and Engineering. 
+          I am a student at the University of California, Davis, pursuing degrees in <span className='font-bold text-[#911eff]'>Computer Science and Engineering</span> and in <span className='font-bold text-[#911eff]'>Statistics, ML Track</span>. 
           I am passionate about <span className='font-bold text-[#911eff]'>learning new technologies</span> and <span className='font-bold text-[#911eff]'>understanding complex algorithms,</span>
           &nbsp;and am currently spending my time immersed in <span className='font-bold text-[#911eff]'>machine learning</span> and <span className='font-bold text-[#911eff]'>cloud engineering.</span>
       </motion.p>

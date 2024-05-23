@@ -156,18 +156,6 @@ import {
       ],
     }, 
     {
-      title: "Software Engineer Intern",
-      company_name: "Brain Racers (startup)",
-      icon: br,
-      iconBg: "#383E56",
-      date: "July 2023 - September 2023",
-      points: [
-        "Updated structure of MySQL & Redis database framework containing 10000+ data points for 25% quicker access of user data queried with PHP Laravel.",
-        "Created 3 REST API services with 10+ additional endpoints to retrieve and parse necessary info from the Redis database, provided docs for the API’s functionality to streamline frontend development by 3x, and integrated them into 4 existing React TypeScript components on the dashboard to use this real time data.",
-        "Worked with the design team to design and implement 5+ reusable new elements in ReactTS and CSS, and added them to the existing product, including a line graph showing user progress."
-      ],
-    },
-    {
       title: "SWE Director",
       company_name: "Davis Quant Collective",
       icon: dqc,
@@ -178,6 +166,18 @@ import {
         "Assembled the model in Python using an architecture of multiple HuggingFace models for initial processing and GPU-trained comprehensive PyTorch neural networks, and serving it using Django for easy queries from the frontend Next.js website with the user’s positions and analytics.",
         "Used TailwindCSS and ReactJS to help implement the club website with 2 other directors, delivering the website 1 week ahead of schedule."   
       ],     
+    },
+    {
+      title: "Software Engineer Intern",
+      company_name: "Brain Racers (startup)",
+      icon: br,
+      iconBg: "#383E56",
+      date: "July 2023 - September 2023",
+      points: [
+        "Updated structure of MySQL & Redis database framework containing 10000+ data points for 25% quicker access of user data queried with PHP Laravel.",
+        "Created 3 REST API services with 10+ additional endpoints to retrieve and parse necessary info from the Redis database, provided docs for the API’s functionality to streamline frontend development by 3x, and integrated them into 4 existing React TypeScript components on the dashboard to use this real time data.",
+        "Worked with the design team to design and implement 5+ reusable new elements in ReactTS and CSS, and added them to the existing product, including a line graph showing user progress."
+      ],
     },
     {
       title: "Data Analyst Intern",
