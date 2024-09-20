@@ -50,11 +50,11 @@ const SimpleScreen = () => {
                         <br />
                         <div className='flex flex-col text-[#636E72] text-xl text-justify'>
                             <h2 className='indent-4 font-bold text-[#161615]'>{'>> Deloitte, Incoming Solutions Engineer Intern, June 2024 - August 2024'}</h2>
-                            <h2 className='mx-8 font-light'></h2>
+                            <h2 className='mx-8 font-light'>{'$ Assisted the development of a cloud-native architecture for a company serving 16 million users, reducing latency by 40% and lowering total cost of ownership by 12%, while also automating internal processes through an AI-powered tool that streamlined Excel and Outlook data handling.'}</h2>
                             <h2 className='indent-4 font-bold text-[#161615]'>{'>> Brain Racers, Software Engineer Intern, July 2023 - September 2023'}</h2>
-                            <h2 className='mx-8 font-light'>{'$ I improved the design of an existing MySQL database and built and deployed 10+ API endpoints querying it with PHP, then integrated the endpoints with 9+ existing and new TypeScript React to create dynamic components.'}</h2>
+                            <h2 className='mx-8 font-light'>{'$ Revamped MySQL and Redis databases to enhance data access by 25% and cut queries by 80%, reduced real-time data retrieval latency by 10% through the development of 3 REST APIs, and implemented 5 modular React components to streamline front-end user interaction, including live game trackers.'}</h2>
                             <h2 className='indent-4 font-bold mt-2 text-[#161615]'>{'>> DigitalMain, Data Analyst Intern, June 2022 - August 2022'}</h2>
-                            <h2 className='mx-8'>{'$ I worked alongside the Product Manager with guidance from the CEO to create scripts to scrape cybersecurity forums. I then used an ML model to organize the data and perform analysis on it, in order to help streamline DigitalMain\'s data handling process.'}</h2>
+                            <h2 className='mx-8'>{'$ Automated data extraction and analysis from 6 major cybersecurity forums, processing over 15,000 data points and boosting data handling efficiency by 7x, while working with the product manager to integrate machine learning models for structured data categorization and exploratory data analysis.'}</h2>
                         </div>
                     </section>
 
@@ -63,18 +63,18 @@ const SimpleScreen = () => {
                         <br />
                         <div className='flex flex-col text-[#636e72] text-xl text-justify'>
                             <h2 className='indent-4 font-bold text-[#161615]'>{'>> UC Davis Center for Mind and Brain, Undergraduate Machine Learning Researcher, May 2024 - Present'}</h2>
-                            <h2 className='mx-8'>{"$ I'm working directly under Dr. Petr Janata, researching generative music models, and I'm currently working on implementing attention in music generation and (separately) utilizing fMRI brain data from the UC Davis Center for Mind and Brain to explore optimizing the design of neural networks to more closely resemble 'the brain'"}</h2>
+                            <h2 className='mx-8'>{"$ Conducted research on the use of fMRI brain scans from over 150 subjects to optimize deep convolutional neural networks, developed a generative music model using transformers trained on 2000+ songs, and improved music genre classification accuracy by 15% through innovative CNN architecture designs.'"}</h2>
                         </div>
                         <br />
                         <div className='flex flex-col text-[#636e72] text-xl text-justify'>
-                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> UC Davis CodeLab, Software Developer, October 2023 - Present'}</h2>
-                            <h2 className='mx-8'>{"$ I worked with our consulting club for the startup BillionMinds, building them 2 dashboards in Next.ts and TailwindCSS with an intricate backend system with MongoDB Atlas and AWS Lambda, aggregating data from 4 different APIs into one central MongoDB Collection."}</h2>
-                            <h2 className='mx-8'>{"$ I was the Project Manager for a team building a video summarizing chatbot tool for an on-campus client, in Next, Express, and MongoDB using Google Gemini for summary generation and used AWS Elastic Beanstalk to host the EC2 instance with the Flask server for Gemini queries."}</h2>
+                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> UC Davis CodeLab, Software Developer -> Project Manager, October 2023 - Present'}</h2>
+                            <h2 className='mx-8'>{"$ Developed and consolidated 10+ interactive components and integrated data from 4 APIs into a unified MongoDB database, reducing data load times by 50%."}</h2>
+                            <h2 className='mx-8'>{"$ Managed a cross-functional team for 16 weeks to deliver video summarizing software utilizing TypeScript, Node.js, and Google Gemini for a client project."}</h2>
                         </div>
                         <br />
                         <div className='flex flex-col text-[#636e72] text-xl text-justify'>
                             <h2 className='indent-4 font-bold text-[#161615]'>{'>> Davis Quant Collective, SWE Director, August 2023 - Dec 2023'}</h2>
-                            <h2 className='mx-8'>{"$ I utilized research from 5+ research articles to create a stock portfolio manager and risk assessor, and led a team of 6 to develop a trading bot in python, cross testing it with the risk assessor to integrate both projects."}</h2>
+                            <h2 className='mx-8'>{"$ Led a team of 6 engineers to develop a Python trading bot that achieved a 5% average annual return on historical and live market data, while streamlining the machine learning architecture of a stock portfolio manager by incorporating research findings and improving project progress by 25%."}</h2>
                         </div>
                     </section>
 

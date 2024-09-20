@@ -7,7 +7,7 @@ import {About, SimpleScreen, Contact, Experience, Hero, Navbar, Tech, Works, Sta
 
 
 const App = () => {
-  const [isSelected, setSelected] = useState(false)
+  const [isSelected, setSelected] = useState(true)
   if(isSelected){
     return (
   

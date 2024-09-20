@@ -10,7 +10,8 @@ const Bottom = () => {
             }}/>
             <div className='flex flex-row justify-evenly w-[100%] '>
                 <div className='text-left w-[30%] pt-4 font-poppins text-secondary flex flex-col space-y-1'>
-                    Powered by ReactJS, ThreeJS, and TailwindCSS
+                    Powered by ReactJS, ThreeJS, and TailwindCSS. 
+                    <br/>Credit: JavaScript Mastery on YouTube
                     <a className="underline underline-offset-2" href="https://github.com/kaushal2m2/portfolio" target="_blank">GitHub Codebase for Portfolio</a>
                 </div>
                 <div className='text-center w-[30%] pt-4 font-poppins text-secondary underline underline-offset-2 flex flex-col space-y-1'>

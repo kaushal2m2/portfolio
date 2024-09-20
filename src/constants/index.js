@@ -125,12 +125,16 @@ import {
   
   const experiences = [
     {
-      title: "Incoming Solutions Engineer Summer Scholar",
+      title: "Software Engineer Intern",
       company_name: "Deloitte",
       icon: del,
       iconBg: "#383E56",
       date: "June 2024 - August 2024",
-      points:[]
+      points:[
+        "Consulted for a large-size company with 16M monthly users, assisting in 3+ client proposals and maintaining project documentation while guiding the transition to a cloud-native approach.",
+        "Architected comprehensive cloud solutions using 5 AWS services, including API Gateway and Lambda functions, resulting in an estimated 40% lower latency, and resource optimization leading to a 25% reduction in operating costs.",
+        "Participated in a GenAI initiative, developing a proof of concept for an AI-powered internal tool utilizing Python, OpenAI, and Claude AI that accelerated company processes by an estimated 50%.",
+      ]
     },
     {
       title: "Undergraduate Machine Learning Researcher",
@@ -139,8 +143,9 @@ import {
       iconBg: "#383E56",
       date: "May 2024 - Present",
       points: [
-        "Performing research under Dr. Petr Janata on the relationship between music on the brain, utilizing fMRI brain data from the UC Davis Mind and Brain Center to explore optimizing the design of neural networks to more closely resemble 'the brain', with 150+ real subjects brain data reactions to music over years.",
-        "Implementing a transformer architecture centered around attention and variational auto encoders with PyTorch to create a generative music model, leveraging 1500-2000 songs with lyrics to train the model."
+        "Performing research directly under Dr. Petr Janata, leading my project utilizing 150+ subjects’ fMRI brain data stimulated to music, to explore optimizing the design of deep CNNs to more closely resemble ’the brain’.",
+        "Integrating research with Convolutional Neural Networks using the Emergent software in Go and Jack2 in Python, creating models with 15\% lower loss than existing genre classifiers.",
+        "Implemented a transformer architecture centered around attention and variational autoencoders with PyTorch to create a generative music model, leveraging 2000+ songs with lyrics to train the model.",
       ]
     },
     {
@@ -150,21 +155,19 @@ import {
       iconBg: "#E6DEDD",
       date: "Oct 2023 - Present",
       points: [
-        "Worked on the Client team, consulting for the company BillionMinds, and built two dashboards using Next.ts and TailwindCSS for BillionMinds and its clients to manage and view their company’s data.",
-        "Aggregated data from 4 APIs into a MongoDB database with AWS Lambda Serverless functions and queried Mongo from the frontend to populate the dashboard and charts.",
-        "Developed 3 low fidelity iterations in Next.ts from the ground up, and worked continuously with designers and BillionMinds to combine and advance it to a single, functioning, high fidelity product.",
+        "Consulted for BillionMinds (startup), and developed 3 product iterations in Next.js and TailwindCSS, and worked continuously with designers and BillionMinds to advance it to a single product with 2 dashboards, with 10+ interactive components integrated with queried data.",
+        "Reconstructed the data store structure by aggregating data from 4 external APIs into a single MongoDB database using AWS Lambda Serverless functions and a Kubernetes CronJob and built 5+ API endpoints to populate the dashboard, reducing data loading latency by 50\%."
       ],
     }, 
     {
-      title: "SWE Director",
+      title: "Software Engineering Director",
       company_name: "Davis Quant Collective",
       icon: dqc,
       iconBg: "#E6DEDD",
       date: "August 2023 - Dec 2023",
       points: [
-        "Analyzed and incorporated findings from 5+ research papers into our ML Model Architecture for a stock portfolio manager and risk assessor project, streamlining project progress by 25%.",
-        "Assembled the model in Python using an architecture of multiple HuggingFace models for initial processing and GPU-trained comprehensive PyTorch neural networks, and serving it using Django for easy queries from the frontend Next.js website with the user’s positions and analytics.",
-        "Used TailwindCSS and ReactJS to help implement the club website with 2 other directors, delivering the website 1 week ahead of schedule."   
+        "Incorporated findings from 5+ research papers into our ML Architecture for a stock portfolio manager, streamlining project progress by 25\%, and assembled the model with an architecture of 3+ HuggingFace models for preprocessing and GPU-trained PyTorch neural networks.",
+        "Led a team of 6 to develop a Python trading bot, using scikit-learn and PyTorch to create the ML model, and integrated and cross-tested with the stock portfolio manager, reaching a 5\% average annual ROI on historical and present day markets.",
       ],     
     },
     {
@@ -174,9 +177,9 @@ import {
       iconBg: "#383E56",
       date: "July 2023 - September 2023",
       points: [
-        "Updated structure of MySQL & Redis database framework containing 10000+ data points for 25% quicker access of user data queried with PHP Laravel.",
-        "Created 3 REST API services with 10+ additional endpoints to retrieve and parse necessary info from the Redis database, provided docs for the API’s functionality to streamline frontend development by 3x, and integrated them into 4 existing React TypeScript components on the dashboard to use this real time data.",
-        "Worked with the design team to design and implement 5+ reusable new elements in ReactTS and CSS, and added them to the existing product, including a line graph showing user progress."
+        "Revamped structure of MySQL \& Redis database framework containing 10000+ data points for 25\% quicker access with 80\% less queries for required user data with PHP Laravel.",
+        "Created 3 REST API services with 10+ additional endpoints, reducing real-time data retrieval latency by 50\%; documented APIs functionality to streamline frontend development by an estimated 3x.",
+        "Worked with the design team to design and implement 5+ reusable new elements in React and CSS, and added them to the existing product, including a line graph showing user progress with the additional API endpoints.",
       ],
     },
     {
@@ -186,9 +189,9 @@ import {
       iconBg: "#E6DEDD",
       date: "June 2022 - August 2022",
       points: [
-        "Wrote 10 robust Python Scripts using Selenium Webdriver and BeautifulSoup to conduct in-depth analysis of 6 cybersecurity forums, leveraging 15,000+ scraped data points to identify 100+ keywords, trends, and FAQs to optimize data handling processes by 7x.",
-        "Collaborated closely with DigitalMain's product manager to devise a comprehensive project blueprint, integrating machine learning models for efficient data organization.",
-      ],
+        "Wrote 10 robust Python scripts using Selenium Webdriver and BeautifulSoup to conduct in-depth analysis of 6 cybersecurity forums, leveraging 15,000+ scraped data points to identify 100+ keywords, trends, and FAQs to optimize data handling processes by 7x.",
+        "Collaborated with product manager to devise a comprehensive project blueprint, integrating machine learning models for efficient data organization.",
+      ]
     },
   ];
   
@@ -259,7 +262,7 @@ import {
     {
       name: "Portfolio",
       description:
-        "Built this website for myself as a portfolio, hosted on AWS using S3, Route53, and Cloudfront for caching, and a ci/cd pipeline with CodePipeline. Built using React and ThreeJS with TailwindCSS.",
+        "Built this website, hosted on AWS using S3, Route53, and Cloudfront for caching, and a ci/cd pipeline with CodePipeline. Built using React and ThreeJS with TailwindCSS.",
       tags: [
         {
           name: "react",
