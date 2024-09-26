@@ -50,11 +50,11 @@ const SimpleScreen = () => {
                         <br />
                         <div className='flex flex-col text-[#636E72] text-xl text-justify'>
                             <h2 className='indent-4 font-bold text-[#161615]'>{'>> Deloitte, Incoming Solutions Engineer Intern, June 2024 - August 2024'}</h2>
-                            <h2 className='mx-8 font-light'>{'$ Assisted the development of a cloud-native architecture for a company serving 16 million users, reducing latency by 40% and lowering total cost of ownership by 12%, while also automating internal processes through an AI-powered tool that streamlined Excel and Outlook data handling.'}</h2>
+                            <h2 className='mx-8 font-light'>{'$ Built an AI tool to automate client data parsing and developed an input pipeline for a government benefits app, improving support for 8 programs and presented a reduction in costs and latency with AWS migration.'}</h2>
                             <h2 className='indent-4 font-bold text-[#161615]'>{'>> Brain Racers, Software Engineer Intern, July 2023 - September 2023'}</h2>
-                            <h2 className='mx-8 font-light'>{'$ Revamped MySQL and Redis databases to enhance data access by 25% and cut queries by 80%, reduced real-time data retrieval latency by 10% through the development of 3 REST APIs, and implemented 5 modular React components to streamline front-end user interaction, including live game trackers.'}</h2>
+                            <h2 className='mx-8 font-light'>{'$ Unified legacy SQL databases, reducing query times by 80%, and enhanced frontend development by creating 3 API endpoints.'}</h2>
                             <h2 className='indent-4 font-bold mt-2 text-[#161615]'>{'>> DigitalMain, Data Analyst Intern, June 2022 - August 2022'}</h2>
-                            <h2 className='mx-8'>{'$ Automated data extraction and analysis from 6 major cybersecurity forums, processing over 15,000 data points and boosting data handling efficiency by 7x, while working with the product manager to integrate machine learning models for structured data categorization and exploratory data analysis.'}</h2>
+                            <h2 className='mx-8'>{'$ Developed an ETL pipeline, increasing data throughput by 4x by automating data extraction and analysis from cybersecurity forums.'}</h2>
                         </div>
                     </section>
 
@@ -63,7 +63,7 @@ const SimpleScreen = () => {
                         <br />
                         <div className='flex flex-col text-[#636e72] text-xl text-justify'>
                             <h2 className='indent-4 font-bold text-[#161615]'>{'>> UC Davis Center for Mind and Brain, Undergraduate Machine Learning Researcher, May 2024 - Present'}</h2>
-                            <h2 className='mx-8'>{"$ Conducted research on the use of fMRI brain scans from over 150 subjects to optimize deep convolutional neural networks, developed a generative music model using transformers trained on 2000+ songs, and improved music genre classification accuracy by 15% through innovative CNN architecture designs.'"}</h2>
+                            <h2 className='mx-8'>{"$ Optimized CNN models using fMRI brain scans and developed a generative music model, boosting genre classification accuracy by 15%."}</h2>
                         </div>
                         <br />
                         <div className='flex flex-col text-[#636e72] text-xl text-justify'>
@@ -74,7 +74,7 @@ const SimpleScreen = () => {
                         <br />
                         <div className='flex flex-col text-[#636e72] text-xl text-justify'>
                             <h2 className='indent-4 font-bold text-[#161615]'>{'>> Davis Quant Collective, SWE Director, August 2023 - Dec 2023'}</h2>
-                            <h2 className='mx-8'>{"$ Led a team of 6 engineers to develop a Python trading bot that achieved a 5% average annual return on historical and live market data, while streamlining the machine learning architecture of a stock portfolio manager by incorporating research findings and improving project progress by 25%."}</h2>
+                            <h2 className='mx-8'>{"$ Boosted risk prediction accuracy by 15% in a stock portfolio analyzer and developed a Python trading bot with 5% ROI."}</h2>
                         </div>
                     </section>
 

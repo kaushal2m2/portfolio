@@ -131,9 +131,9 @@ import {
       iconBg: "#383E56",
       date: "June 2024 - August 2024",
       points:[
-        "Consulted for a large-size company with 16M monthly users, assisting in 3+ client proposals and maintaining project documentation while guiding the transition to a cloud-native approach.",
-        "Architected comprehensive cloud solutions using 5 AWS services, including API Gateway and Lambda functions, resulting in an estimated 40% lower latency, and resource optimization leading to a 25% reduction in operating costs.",
-        "Participated in a GenAI initiative, developing a proof of concept for an AI-powered internal tool utilizing Python, OpenAI, and Claude AI that accelerated company processes by an estimated 50%.",
+        "Built AI tool using Python to automate client data parsing into spreadsheet/email, utilized by 1000+ employees.",
+        "Developed pipeline for employer/industry info on government benefits dashboard, allowing 8 benefits programs to be supported.",
+        "Presented a PoC for on-prem to AWS migration for a 16M user product, projected to reduce latency by 40\% with edge compute and cut TCO by 12\%.",
       ]
     },
     {
@@ -143,9 +143,9 @@ import {
       iconBg: "#383E56",
       date: "May 2024 - Present",
       points: [
-        "Performing research directly under Dr. Petr Janata, leading my project utilizing 150+ subjects’ fMRI brain data stimulated to music, to explore optimizing the design of deep CNNs to more closely resemble ’the brain’.",
-        "Integrating research with Convolutional Neural Networks using the Emergent software in Go and Jack2 in Python, creating models with 15\% lower loss than existing genre classifiers.",
-        "Implemented a transformer architecture centered around attention and variational autoencoders with PyTorch to create a generative music model, leveraging 2000+ songs with lyrics to train the model.",
+        "Conducted research using 150+ fMRI brain scans to optimize CNN design for music-stimulated brain modeling.",
+        "Developed a generative music model using transformers, trained on 2000+ songs.",
+        "Improved genre classification accuracy by 15\% with CNN models built using Emergent software and Go.",
       ]
     },
     {
@@ -155,8 +155,9 @@ import {
       iconBg: "#E6DEDD",
       date: "Oct 2023 - Present",
       points: [
-        "Consulted for BillionMinds (startup), and developed 3 product iterations in Next.js and TailwindCSS, and worked continuously with designers and BillionMinds to advance it to a single product with 2 dashboards, with 10+ interactive components integrated with queried data.",
-        "Reconstructed the data store structure by aggregating data from 4 external APIs into a single MongoDB database using AWS Lambda Serverless functions and a Kubernetes CronJob and built 5+ API endpoints to populate the dashboard, reducing data loading latency by 50\%."
+        "Built 10+ interactive components and consolidated 3 product iterations into a unified dashboard for BillionMinds.",
+        "Aggregated data from 4 APIs into a MongoDB database, reducing data loading latency by 50\%.",
+        "Managed a team for 16 weeks to build video summarizing software using TypeScript, Node.js and Google Gemini.",
       ],
     }, 
     {
@@ -166,8 +167,8 @@ import {
       iconBg: "#E6DEDD",
       date: "August 2023 - Dec 2023",
       points: [
-        "Incorporated findings from 5+ research papers into our ML Architecture for a stock portfolio manager, streamlining project progress by 25\%, and assembled the model with an architecture of 3+ HuggingFace models for preprocessing and GPU-trained PyTorch neural networks.",
-        "Led a team of 6 to develop a Python trading bot, using scikit-learn and PyTorch to create the ML model, and integrated and cross-tested with the stock portfolio manager, reaching a 5\% average annual ROI on historical and present day markets.",
+        "Incorporated research from 5 articles into stock portfolio analyzer, boosting risk prediction accuracy by 15\%.",
+        "Developed a Python trading bot, achieving a 5\% average annual ROI on historical and live markets.",
       ],     
     },
     {
@@ -177,9 +178,8 @@ import {
       iconBg: "#383E56",
       date: "July 2023 - September 2023",
       points: [
-        "Revamped structure of MySQL \& Redis database framework containing 10000+ data points for 25\% quicker access with 80\% less queries for required user data with PHP Laravel.",
-        "Created 3 REST API services with 10+ additional endpoints, reducing real-time data retrieval latency by 50\%; documented APIs functionality to streamline frontend development by an estimated 3x.",
-        "Worked with the design team to design and implement 5+ reusable new elements in React and CSS, and added them to the existing product, including a line graph showing user progress with the additional API endpoints.",
+        "Aggregated data from five legacy SQL databases into a unified system, reducing database queries by 80% and improving API response times by 25%.",
+        "Created 3 API endpoints integrated with 3 modular components, accelerating subsequent frontend tasks by 50%.",
       ],
     },
     {
@@ -189,8 +189,7 @@ import {
       iconBg: "#E6DEDD",
       date: "June 2022 - August 2022",
       points: [
-        "Wrote 10 robust Python scripts using Selenium Webdriver and BeautifulSoup to conduct in-depth analysis of 6 cybersecurity forums, leveraging 15,000+ scraped data points to identify 100+ keywords, trends, and FAQs to optimize data handling processes by 7x.",
-        "Collaborated with product manager to devise a comprehensive project blueprint, integrating machine learning models for efficient data organization.",
+        "Created ETL pipeline automating extraction and ML analysis of 15,000+ data points from 6 cybersecurity forums, increasing data throughput by 4x.",
       ]
     },
   ];
