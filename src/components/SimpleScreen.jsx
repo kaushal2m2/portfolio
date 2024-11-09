@@ -49,7 +49,7 @@ const SimpleScreen = () => {
                         <p className='text-3xl font-semibold'>% Internships</p>
                         <br />
                         <div className='flex flex-col text-[#636E72] text-xl text-justify'>
-                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> Deloitte, Incoming Solutions Engineer Intern, June 2024 - August 2024'}</h2>
+                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> Deloitte, Software Engineer Intern, June 2024 - August 2024'}</h2>
                             <h2 className='mx-8 font-light'>{'$ Built an AI tool to automate client data parsing and developed an input pipeline for a government benefits app, improving support for 8 programs and presented a reduction in costs and latency with AWS migration.'}</h2>
                             <h2 className='indent-4 font-bold text-[#161615]'>{'>> Brain Racers, Software Engineer Intern, July 2023 - September 2023'}</h2>
                             <h2 className='mx-8 font-light'>{'$ Unified legacy SQL databases, reducing query times by 80%, and enhanced frontend development by creating 3 API endpoints.'}</h2>
