@@ -49,11 +49,11 @@ const SimpleScreen = () => {
                         <p className='text-3xl font-semibold'>% Internships</p>
                         <br />
                         <div className='flex flex-col text-[#636E72] text-xl text-justify'>
-                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> Deloitte, Software Engineer Intern, June 2024 - August 2024'}</h2>
+                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> Deloitte, Software Engineer Intern, Jun 2024 - Aug 2024'}</h2>
                             <h2 className='mx-8 font-light'>{'$ Built an AI tool to automate client data parsing and developed an input pipeline for a government benefits app, improving support for 8 programs and presented a reduction in costs and latency with AWS migration.'}</h2>
-                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> Brain Racers, Software Engineer Intern, July 2023 - September 2023'}</h2>
+                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> Brain Racers, Software Engineer Intern, Jul 2023 - Sept 2023'}</h2>
                             <h2 className='mx-8 font-light'>{'$ Unified legacy SQL databases, reducing query times by 80%, and enhanced frontend development by creating 3 API endpoints.'}</h2>
-                            <h2 className='indent-4 font-bold mt-2 text-[#161615]'>{'>> DigitalMain, Data Analyst Intern, June 2022 - August 2022'}</h2>
+                            <h2 className='indent-4 font-bold mt-2 text-[#161615]'>{'>> DigitalMain, Data Analyst Intern, Jun 2022 - Aug 2022'}</h2>
                             <h2 className='mx-8'>{'$ Developed an ETL pipeline, increasing data throughput by 4x by automating data extraction and analysis from cybersecurity forums.'}</h2>
                         </div>
                     </section>
@@ -62,18 +62,18 @@ const SimpleScreen = () => {
                         <p className='text-3xl font-semibold'>% Other Work</p>
                         <br />
                         <div className='flex flex-col text-[#636e72] text-xl text-justify'>
-                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> UC Davis Center for Mind and Brain, Undergraduate Machine Learning Researcher, May 2024 - Present'}</h2>
+                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> UC Davis Center for Mind and Brain, Undergraduate Machine Learning Researcher, Jan 2024 - Aug 2024'}</h2>
                             <h2 className='mx-8'>{"$ Optimized CNN models using fMRI brain scans and developed a generative music model, boosting genre classification accuracy by 15%."}</h2>
                         </div>
                         <br />
                         <div className='flex flex-col text-[#636e72] text-xl text-justify'>
-                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> UC Davis CodeLab, Software Developer -> Project Manager, October 2023 - Present'}</h2>
+                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> UC Davis CodeLab, Software Developer -> Project Manager, Oct 2023 - Present'}</h2>
                             <h2 className='mx-8'>{"$ Developed and consolidated 10+ interactive components and integrated data from 4 APIs into a unified MongoDB database, reducing data load times by 50%."}</h2>
                             <h2 className='mx-8'>{"$ Managed a cross-functional team for 16 weeks to deliver video summarizing software utilizing TypeScript, Node.js, and Google Gemini for a client project."}</h2>
                         </div>
                         <br />
                         <div className='flex flex-col text-[#636e72] text-xl text-justify'>
-                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> Davis Quant Collective, SWE Director, August 2023 - Dec 2023'}</h2>
+                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> Davis Quant Collective, SWE Director, Aug 2023 - Dec 2023'}</h2>
                             <h2 className='mx-8'>{"$ Boosted risk prediction accuracy by 15% in a stock portfolio analyzer and developed a Python trading bot with 5% ROI."}</h2>
                         </div>
                     </section>

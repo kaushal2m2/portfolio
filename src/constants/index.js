@@ -129,7 +129,7 @@ import {
       company_name: "Deloitte",
       icon: del,
       iconBg: "#383E56",
-      date: "June 2024 - August 2024",
+      date: "Jun 2024 - Aug 2024",
       points:[
         "Built AI tool using Python to automate client data parsing into spreadsheet/email, utilized by 1000+ employees.",
         "Developed pipeline for employer/industry info on government benefits dashboard, allowing 8 benefits programs to be supported.",
@@ -141,7 +141,7 @@ import {
       company_name: "UC Davis Center for Mind and Brain",
       icon: cmb,
       iconBg: "#383E56",
-      date: "May 2024 - Present",
+      date: "Jan 2024 - Aug 2024",
       points: [
         "Conducted research using 150+ fMRI brain scans to optimize CNN design for music-stimulated brain modeling.",
         "Developed a generative music model using transformers, trained on 2000+ songs.",
@@ -165,7 +165,7 @@ import {
       company_name: "Davis Quant Collective",
       icon: dqc,
       iconBg: "#E6DEDD",
-      date: "August 2023 - Dec 2023",
+      date: "Aug 2023 - Dec 2023",
       points: [
         "Incorporated research from 5 articles into stock portfolio analyzer, boosting risk prediction accuracy by 15\%.",
         "Developed a Python trading bot, achieving a 5\% average annual ROI on historical and live markets.",
@@ -176,7 +176,7 @@ import {
       company_name: "Brain Racers (startup)",
       icon: br,
       iconBg: "#383E56",
-      date: "July 2023 - September 2023",
+      date: "Jul 2023 - Sept 2023",
       points: [
         "Aggregated data from five legacy SQL databases into a unified system, reducing database queries by 80% and improving API response times by 25%.",
         "Created 3 API endpoints integrated with 3 modular components, accelerating subsequent frontend tasks by 50%.",
@@ -187,7 +187,7 @@ import {
       company_name: "DigitalMain (startup)",
       icon: dg,
       iconBg: "#E6DEDD",
-      date: "June 2022 - August 2022",
+      date: "Jun 2022 - Aug 2022",
       points: [
         "Created ETL pipeline automating extraction and ML analysis of 15,000+ data points from 6 cybersecurity forums, increasing data throughput by 4x.",
       ]
