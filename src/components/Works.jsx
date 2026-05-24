@@ -50,8 +50,8 @@ const Works = () => {
       </motion.div>
 
       <div className='w-full flex'>
-        <motion.p variants={fadeIn("","",0.1,1)} className='mt-3 text-secondary text-[17p] max-w-3xl leading-[30p]'>
-          I have worked on a variety of projects, ranging from machine learning to web development. Here are a few of them. The links to the project repos are provided in the description.
+        <motion.p variants={fadeIn("","",0.1,1)} className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
+          This is intentionally broader than the resume. It includes older experiments, ML builds, and product ideas that still say something useful about how I think and what I like to make.
         </motion.p>
       </div>
 

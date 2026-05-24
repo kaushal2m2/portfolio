@@ -1,4 +1,3 @@
-import React from 'react';
 import {me, resume} from '../assets'
 import { projects } from '../constants';
 
@@ -11,12 +10,12 @@ const SimpleScreen = () => {
                 <div className='w-[50%] flex flex-col justify-center'>
                     <div className='text-center flex flex-col items-center'>
                         <div className='font-black text-5xl'>Kaushal Marimuthu</div>
-                        <div className='text-xl'>Computer Science and Engineering & Statistics, ML Track Double Major @ UC Davis</div>
+                        <div className='text-xl'>Software Engineer at Google | UC Davis CSE + Statistics</div>
                         <div className='mt-2 flex flex-row gap-4'>
-                            <a href={resume} target='_blank' className='cursor-pointer opacity-100 hover:opacity-50'>
-                                <svg className='opacity-100' xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z"/><path d="M14 3v5h5M16 13H8M16 17H8M10 9H8"/></svg>
+                            <a href={resume} target='_blank' rel='noreferrer' className='cursor-pointer opacity-100 hover:opacity-50'>
+                                <svg className='opacity-100' xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#000000" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V8l-6-6z"/><path d="M14 3v5h5M16 13H8M16 17H8M10 9H8"/></svg>
                             </a>
-                            <a href='mailto:kaushal2m2@gmail.com' target="_top" className='cursor-pointer opacity-100 hover:opacity-50'>
+                            <a href='mailto:kaushal2m2apply@gmail.com' target="_top" className='cursor-pointer opacity-100 hover:opacity-50'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"></path></svg>
                             </a>
                             <a href="https://www.linkedin.com/in/kaushal-marimuthu/" className="cursor-pointer opacity-100 hover:opacity-50">
@@ -40,41 +39,59 @@ const SimpleScreen = () => {
                         <p className='text-3xl font-semibold'>% About</p>
                         <br />
                         <h2 className='indent-4 font-bold text-[#161615] text-xl text-justify'>
-                            {'>>'}&nbsp;I am a student at the University of California, Davis, pursuing degrees in <span className='font-bold text-[#079a1a]'>Computer Science and Engineering</span> and in <span className='font-bold text-[#079a1a]'>Statistics, ML Track</span>. 
-                        I am passionate about <span className='font-bold text-[#079a1a]'>learning new technologies</span> and <span className='font-bold text-[#079a1a]'>understanding complex algorithms,</span>
-                        &nbsp;and am currently spending my time immersed in <span className='font-bold text-[#079a1a]'>machine learning</span> and <span className='font-bold text-[#079a1a]'>cloud engineering.</span>
+                            {'>>'}&nbsp;I build systems at the intersection of <span className='font-bold text-[#079a1a]'>privacy, AI, and performance engineering</span>. At Google, I focus on infrastructure and developer productivity, and across internships, research, and leadership roles I’ve consistently gravitated toward work that scales to real users and helps teams move faster.
                         </h2>
                     </section>
                     <section>
-                        <p className='text-3xl font-semibold'>% Internships</p>
+                        <p className='text-3xl font-semibold'>% Experience</p>
                         <br />
                         <div className='flex flex-col text-[#636E72] text-xl text-justify'>
+                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> Google, Software Engineer, Jan 2026 - Present'}</h2>
+                            <h2 className='mx-8 font-light'>{'$ Launched a privacy library across 5+ distributed storage systems at 1M+ QPS, cut p99.9 latency by 5%, and built an AI agent migration toolset that compressed rollout timelines from 3 months to 2 weeks.'}</h2>
+                            <h2 className='indent-4 font-bold mt-2 text-[#161615]'>{'>> Google, Software Engineer Intern, Jun 2025 - Sept 2025'}</h2>
+                            <h2 className='mx-8 font-light'>{'$ Built a privacy standards chatbot used across 80+ systems by 1,000+ employees and automated reliability work to keep the system continuously accurate with no manual upkeep.'}</h2>
                             <h2 className='indent-4 font-bold text-[#161615]'>{'>> Deloitte, Software Engineer Intern, Jun 2024 - Aug 2024'}</h2>
-                            <h2 className='mx-8 font-light'>{'$ Built an AI tool to automate client data parsing and developed an input pipeline for a government benefits app, improving support for 8 programs and presented a reduction in costs and latency with AWS migration.'}</h2>
+                            <h2 className='mx-8 font-light'>{'$ Built an AI tool to automate client data parsing for spreadsheet and email workflows, and presented an AWS migration plan for a 16M-user product that projected a 40% latency reduction and 12% lower TCO.'}</h2>
                             <h2 className='indent-4 font-bold text-[#161615]'>{'>> Brain Racers, Software Engineer Intern, Jul 2023 - Sept 2023'}</h2>
-                            <h2 className='mx-8 font-light'>{'$ Unified legacy SQL databases, reducing query times by 80%, and enhanced frontend development by creating 3 API endpoints.'}</h2>
+                            <h2 className='mx-8 font-light'>{'$ Aggregated five legacy SQL databases into a unified system, reducing database queries by 80% and improving API response times by 25%.'}</h2>
                             <h2 className='indent-4 font-bold mt-2 text-[#161615]'>{'>> DigitalMain, Data Analyst Intern, Jun 2022 - Aug 2022'}</h2>
-                            <h2 className='mx-8'>{'$ Developed an ETL pipeline, increasing data throughput by 4x by automating data extraction and analysis from cybersecurity forums.'}</h2>
+                            <h2 className='mx-8 font-light'>{'$ Built an ETL pipeline across cybersecurity forum data, automating extraction and ML analysis of 15,000+ data points and increasing throughput by 4x.'}</h2>
+                            <h2 className='indent-4 font-bold mt-2 text-[#161615]'>{'>> USACO Gold, Competitive Programmer'}</h2>
+                            <h2 className='mx-8 font-light'>{'$ Reached USACO Gold through algorithmic problem solving across graphs, dynamic programming, and performance-focused coding challenges.'}</h2>
                         </div>
                     </section>
 
                     <section>
-                        <p className='text-3xl font-semibold'>% Other Work</p>
+                        <p className='text-3xl font-semibold'>% Leadership + Research</p>
                         <br />
                         <div className='flex flex-col text-[#636e72] text-xl text-justify'>
-                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> UC Davis Center for Mind and Brain, Undergraduate Machine Learning Researcher, Jan 2024 - Aug 2024'}</h2>
-                            <h2 className='mx-8'>{"$ Optimized CNN models using fMRI brain scans and developed a generative music model, boosting genre classification accuracy by 15%."}</h2>
+                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> CodeLab, Projects Lead & Software Developer, Oct 2023 - Dec 2025'}</h2>
+                            <h2 className='mx-8'>{"$ Secured partnerships with Reddit, Goodnotes, and Render worth $30k, built an MLB scoreboard app with 1M+ weekly impressions for Reddit, and created AI product proofs of concept that helped Goodnotes evaluate 10+ LLM feature directions."}</h2>
                         </div>
                         <br />
                         <div className='flex flex-col text-[#636e72] text-xl text-justify'>
-                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> UC Davis CodeLab, Software Developer -> Project Manager, Oct 2023 - Present'}</h2>
-                            <h2 className='mx-8'>{"$ Developed and consolidated 10+ interactive components and integrated data from 4 APIs into a unified MongoDB database, reducing data load times by 50%."}</h2>
-                            <h2 className='mx-8'>{"$ Managed a cross-functional team for 16 weeks to deliver video summarizing software utilizing TypeScript, Node.js, and Google Gemini for a client project."}</h2>
+                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> UC Davis Center for Mind and Brain, Undergraduate ML Researcher, Jan 2024 - Aug 2024'}</h2>
+                            <h2 className='mx-8'>{"$ Conducted research on 150+ fMRI scans, designed CNN architectures for music-stimulated brain modeling, and built transformer-based generative music and genre classification models trained on 2,000+ songs."}</h2>
                         </div>
                         <br />
                         <div className='flex flex-col text-[#636e72] text-xl text-justify'>
-                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> Davis Quant Collective, SWE Director, Aug 2023 - Dec 2023'}</h2>
-                            <h2 className='mx-8'>{"$ Boosted risk prediction accuracy by 15% in a stock portfolio analyzer and developed a Python trading bot with 5% ROI."}</h2>
+                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> Davis Quant Collective, Software Engineering Director, Jul 2023 - Dec 2023'}</h2>
+                            <h2 className='mx-8'>{"$ Incorporated research from 5 articles into a stock portfolio analyzer to improve risk prediction by 15%, and built a Python trading bot that delivered a 5% average annual ROI on historical and live markets."}</h2>
+                        </div>
+                    </section>
+
+                    <section>
+                        <p className='text-3xl font-semibold'>% Skills</p>
+                        <br />
+                        <div className='flex flex-col text-[#636e72] text-xl text-justify'>
+                            <h2 className='indent-4 font-bold text-[#161615]'>{'>> Languages'}</h2>
+                            <h2 className='mx-8'>{"$ Java, C/C++, Python, SQL, JavaScript, TypeScript, Golang"}</h2>
+                            <h2 className='indent-4 font-bold mt-2 text-[#161615]'>{'>> Frameworks + Tools'}</h2>
+                            <h2 className='mx-8'>{"$ React, Node.js, Next.js, Flask, Spring, Redux, MongoDB, PostgreSQL, Docker, Git, AWS, TensorFlow, PyTorch, Keras, HuggingFace, Claude Code, Codex, Antigravity"}</h2>
+                            <h2 className='indent-4 font-bold mt-2 text-[#161615]'>{'>> AI + Systems Focus'}</h2>
+                            <h2 className='mx-8'>{"$ LLM agents, autoresearch, llm-wiki, privacy infrastructure, low-latency optimization, distributed systems migrations"}</h2>
+                            <h2 className='indent-4 font-bold mt-2 text-[#161615]'>{'>> Education'}</h2>
+                            <h2 className='mx-8'>{"$ UC Davis, B.S. Computer Science and Engineering and B.S. Statistics, GPA 3.95"}</h2>
                         </div>
                     </section>
 

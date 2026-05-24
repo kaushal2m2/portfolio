@@ -1,4 +1,3 @@
-import React from 'react'
 import Tilt from 'react-parallax-tilt'
 import {motion} from 'framer-motion'
 
@@ -14,11 +13,6 @@ const ServiceCard = ({index, title, icon}) => {
         variants={fadeIn("right","spring",0.5 * index, 1)}
         className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'>
           <div
-            options={{
-              max: 45,
-              scale: 1,
-              speed: 450
-            }}
             className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'>
               <img src={icon} alt={title} className='w-16 h-16 object-contain'/>
               <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3> 
@@ -39,9 +33,7 @@ const About = () => {
       <motion.p
         variants={fadeIn("","",0.1,1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-          I am a student at the University of California, Davis, pursuing degrees in <span className='font-bold text-[#911eff]'>Computer Science and Engineering</span> and in <span className='font-bold text-[#911eff]'>Statistics, ML Track</span>. 
-          I am passionate about <span className='font-bold text-[#911eff]'>learning new technologies</span> and <span className='font-bold text-[#911eff]'>understanding complex algorithms,</span>
-          &nbsp;and am currently spending my time immersed in <span className='font-bold text-[#911eff]'>machine learning</span> and <span className='font-bold text-[#911eff]'>cloud engineering.</span>
+          I’m a Bay Area software engineer currently at <span className='font-bold text-[#911eff]'>Google</span>, where I work on <span className='font-bold text-[#911eff]'>privacy infrastructure, low-latency systems, and AI-powered developer tooling.</span> I recently completed dual degrees in <span className='font-bold text-[#911eff]'>Computer Science and Engineering</span> and <span className='font-bold text-[#911eff]'>Statistics</span> at UC Davis, and I’m at my best when I’m turning ambiguous problems into systems that scale, unblock teams, and ship measurable impact.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

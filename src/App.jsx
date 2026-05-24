@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom"
-import React, {useState} from "react"
+import {useState} from "react"
 import {logo, logo_black} from "./assets"
 import {motion} from "framer-motion"
 
@@ -7,20 +7,20 @@ import {About, SimpleScreen, Contact, Experience, Hero, Navbar, Tech, Works, Sta
 
 
 const App = () => {
-  const [isSelected, setSelected] = useState(true)
+  const [isSelected, setSelected] = useState(false)
   if(isSelected){
     return (
   
-      <div className='h-full w-[100vw] relative z-0 bg-[#ffffff] flex flex-col'>
-        <div className='flex flex-col items-center bg-transparent text-black w-[10vw] h-[10vh] z-20 fixed absolute right-0'>
-          <div className='mt-4 cursor-pointer	w-16 h-10 flex items-center bg-slate-300 rounded-full p-1 justify-start'
+      <div className='h-full min-h-screen w-[100vw] relative z-0 bg-[#f5f1ea] flex flex-col'>
+        <div className='fixed right-4 top-4 z-30 flex flex-col items-center text-black'>
+          <div className='glass-light mt-4 cursor-pointer w-20 h-11 flex items-center rounded-full p-1 justify-start shadow-lg'
           onClick={() => setSelected(!isSelected)}>
-            <motion.div layout className="bg-white w-8 h-8 rounded-full drop-shadow-2xl">
-              <img src = {logo} className="rounded-full"/>
+            <motion.div layout className="bg-white w-9 h-9 rounded-full drop-shadow-2xl">
+              <img src = {logo} className="rounded-full" alt="toggle view"/>
             </motion.div>
           </div>
-          <p className="quick text-md mt-[5px]">
-            Detailed View
+          <p className="quick text-sm mt-2 tracking-wide">
+            Switch to detailed
           </p>
         </div>
         <div className="mt-[10vh]"><SimpleScreen /></div>
@@ -31,17 +31,22 @@ const App = () => {
   }
   return (
     <BrowserRouter>
-      <div className='b relative z-0 bg-primary'>
-        <div className='bg-hero-pattern bg-no-repeat bg-center'>
+      <div className='relative z-0 bg-primary overflow-hidden'>
+        <div className='hero-glow hero-glow-left' />
+        <div className='hero-glow hero-glow-right' />
+        <div className='bg-hero-pattern bg-no-repeat bg-center bg-cover'>
           <div className="flex flex-row">
             <Navbar />
-            <div className='flex flex-col items-center bg-transparent text-white w-[10vw] h-[10vh] z-20 fixed absolute right-0'>
-              <div className='mt-4 cursor-pointer	w-16 h-10 flex items-center bg-[#911eff] rounded-full p-1 justify-end'
+            <div className='fixed right-4 top-4 z-30 flex flex-col items-center text-white'>
+              <div className='glass-dark mt-4 cursor-pointer w-20 h-11 flex items-center rounded-full p-1 justify-end shadow-lg'
               onClick={() => setSelected(!isSelected)}>
-                <motion.div layout className="bg-white w-8 h-8 rounded-full shadow-md">
-                  <img src = {logo_black} className="rounded-full"/>
+                <motion.div layout className="bg-white w-9 h-9 rounded-full shadow-md">
+                  <img src = {logo_black} className="rounded-full" alt="toggle view"/>
                 </motion.div>
               </div>
+              <p className="text-xs mt-2 tracking-[0.24em] uppercase text-secondary">
+                Resume view
+              </p>
             </div>
           </div>
           

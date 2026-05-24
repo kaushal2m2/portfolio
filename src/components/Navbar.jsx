@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import {useState} from 'react'
 import { Link } from 'react-router-dom'
 
 import {styles} from '../styles'
@@ -10,7 +10,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false)
   return (
     <nav 
-      className={`${styles.paddingX} w-[90vw] flex items-center py-5 fixed top-0 z-20 bg-transparent absolute`}>
+      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-transparent absolute`}>
       <div className='flex items-center justify-between w-full max-w-7xl mx-auto'>
         <Link 
           to='/'
@@ -19,9 +19,12 @@ const Navbar = () => {
           window.scrollTo(0, 0); }}
         >
           <img src = {logo} alt = "logo" className="w-9 h-9 object-contain" />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex'>Kaushal&nbsp;Marimuthu</p>
+          <div className='flex flex-col'>
+            <p className='text-white text-[18px] font-bold cursor-pointer flex'>Kaushal&nbsp;Marimuthu</p>
+            <p className='hidden sm:block text-[11px] uppercase tracking-[0.25em] text-secondary'>Software Engineer</p>
+          </div>
         </Link>
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className='glass-dark list-none hidden sm:flex flex-row gap-8 rounded-full border border-white/10 px-6 py-3'>
           {navLinks.map((link) => (
             <li key={link.id}
                 className={`${active === link.title ? "text.white" : "text-secondary"} 
